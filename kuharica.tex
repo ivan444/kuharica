@@ -13,18 +13,9 @@
 \usepackage[clock]{ifsym}
 \usepackage{textcomp}
 
-% Korisni simboli:
-% \pot  veliki lonac
-% \fryingpan tava
-% \grater ribež
-% \cooker štednjak
-% \peeler za skidanje kore
-% \rollingpin za valjanje tijesta
-
-% \ding{43} iz pifont -- ruka prema desno
-
 \begin{document}
 \renewcommand*{\recipestepnumberfont}{\small\itshape}
+
 \begin{recipe}{Quiche sa špinatom i feta sirom}%
   {4 porcije}%
   {\showclock{0}{50} (10$m$ pripreme, 5$m$ \fryingpan, 35$m$ \oven) \textleaf}
@@ -35,7 +26,7 @@
 
 \ingredient[4]{}{jaja}
 \ingredient[250]{ml}{vrhnja za kuhanje}
-\ingredient[200]{g}{feta sira}
+\ingredient[200]{g}{\grater feta sira}
 \ingredient[\fr18]{\Spoon}{muškatnog orašćića}
 \ingredient[\fr18]{\Spoon}{papra}
   Izmuti jaja, dodaj vrhnje za kuhanje. Naribaj feta sir i dodaj u smjesu.
@@ -48,12 +39,184 @@
 \newstep
   Dodaj poprženi luk u smjesu. Sve dobro pomješaj.
 
-\ingredient[1]{}{tijesto za quiche}
+\ingredient[1]{}{tijesto za quiche\\
+  \O\ 33$cm$}
   Stavi tijesto u okruglu posudu. Nalij smjesu.
 
-\newstep
+\ingredient[]{}{\oven}
   Zagrij pećnicu na 180\0 C. Peci 35$m$.
 
 \end{recipe}
 
+\begin{recipe}{Quiche Lorraine}%
+  {4 porcije}%
+  {\showclock{0}{55} (10$m$ pripreme, 10$m$ \fryingpan, 35$m$ \oven)}
+\ingredient[120]{g}{slanine}
+\ingredient[]{}{ulje}
+  Nareži slaninu na male komadiće i poprži na ulju. Skloni s tave.
+
+\ingredient[1]{}{srednji luk}
+  Sitno nareži luk i poprži na ulju (lagana vatra, 5$m$). Ostavi sa strane da
+  se malo ohladi.
+
+\ingredient[4]{}{jaja}
+\ingredient[250]{ml}{vrhnja za kuhanje}
+\ingredient[100]{g}{\grater Gruy\`{e}re sira}
+\ingredient[\fr18]{\Spoon}{muškatnog orašćića}
+\ingredient[\fr18]{\Spoon}{papra}
+  Izmuti jaja, dodaj vrhnje za kuhanje. Naribaj sir i dodaj u smjesu.
+  Dodaj muškatni orašćić i papar.
+
+\newstep
+  Dodaj poprženu slaninu i luk u smjesu. Sve dobro pomješaj.
+
+\ingredient[1]{}{tijesto za quiche\\
+  \O\ 33$cm$}
+  Stavi tijesto u okruglu posudu. Nalij smjesu.
+
+\ingredient[]{}{\oven}
+  Zagrij pećnicu na 180\0 C. Peci 35$m$.
+
+\end{recipe}
+
+\begin{recipe}{Rižoto s piletinom i povrćem}%
+  {4 porcije}%
+  {\showclock{0}{35} (20$m$ pripreme, 15$m$ \pot)}
+\ingredient[150]{g}{slanine}
+\ingredient[]{}{maslinovo ulje}
+  Nareži slaninu na male komadiće i poprži na ulju.
+
+\ingredient[200]{g}{pilećih prsa}
+  Sitno nareži piletinu i dodaj na tavu.
+
+\ingredient[1]{}{srednji luk}
+\ingredient[1]{}{mrkva}
+\ingredient[1]{}{tikvica}
+  Sitno nareži luk i dodaj na tavu (lagana vatra, 2-3$m$). Sitno nareži povrće
+  (posebno sitno mrkvu) i dodaj na tavu.
+
+\ingredient[2]{}{češnjaka}
+\ingredient[1]{\Spoon}{timjan}
+\ingredient[400]{g}{Arborio riže}
+  Dodaj protisnuti češnjak, timjan i i rižu na tavu. Miješaj 2-3$m$.
+
+\ingredient[100]{ml}{bijelog vina}
+\ingredient[1]{l}{vode}
+\ingredient[2]{}{pileće kocke}
+  Dodaj vino i kuhaj dok ne ispari. Dodaj vodu. Umješaj pileće kocke. Dobro
+  promješaj.
+
+\ingredient[]{}{\pot}
+  Sve stavi u ekspres lonac i kuhaj 7$m$ od trenutka kad dostigne 40$kPa$.
+
+\ingredient[25]{g}{maslaca}
+\ingredient[4]{\Spoon}{parmezana}
+\ingredient[\fr14]{\Spoon}{papra}
+  Dodaj maslac, parmezan i papar. Dobro promješaj.
+
+  Posluži sa dodatnim parmezanom.
+
+\freeform
+  \ding{43} Piletina, tikvice i mrkva se može zamjeniti sa 200$g$ šampinjona
+  ili 500$g$ šparoga.
+
+\end{recipe}
+
+\begin{recipe}{Palačinke od cikle}%
+  {10 palačinki}%
+  {\showclock{1}{30} (15$m$ pripreme, 1$h$ \pot, 15$m$ \fryingpan ) \textleaf}
+\ingredient[1]{}{mala cikla}
+\ingredient[]{}{voda}
+  Kuhaj cijelu ciklu (neoguljenu) u vodi 1$h$. Oguli je nakon što se cikla
+  skuha i ohladi. (moguće je skuhati veću količinu i zalediti)
+
+  Nareži ciklu na manje komade.
+
+\ingredient[2]{\Spoon}{maslaca}
+  Otopi maslac.
+
+\ingredient[250]{ml}{mlijeka}
+\ingredient[120]{g}{brašna}
+\ingredient[2]{}{jaja}
+\ingredient[1]{\Spoon}{vanilije}
+\ingredient[1]{\Spoon}{šećera}
+  Smiksaj ciklu, maslac i ostale sastojke u blenderu.
+
+\ingredient[]{}{\fryingpan}
+  Poprži na tavi, na malo ulja.
+
+\end{recipe}
+
+\begin{recipe}{Pomfrie of batata}%
+  {3 porcije}%
+  {\showclock{1}{20} (20$m$ pripreme, 30$m$ namakanja, 30$m$ \oven ) \textleaf}
+\ingredient[1]{}{veliki batat}
+\ingredient[]{}{voda}
+  Narezati batat na prutiće debljine 1$cm$.
+
+  Natopiti u vodi bar 30$m$.
+
+\ingredient[2]{\Spoon}{maslinovog ulja}
+  Osušiti batat ubrusima. Nauljuiti maslinovim uljem.
+
+\ingredient[2]{\Spoon}{škroba}
+\ingredient[\fr12]{\Spoon}{češnjaka u prahu}
+\ingredient[\fr12]{\Spoon}{paprike u prahu}
+\ingredient[\fr12]{\Spoon}{papra}
+\ingredient[\fr14]{\Spoon}{soli}
+  Pomješaj sve suhe sastojke. Uvaljaj nauljeni batat u njih.
+
+\ingredient[]{}{\oven}
+  Zagrijati pećnicu na 215\0 C.
+
+  Poslagati krumpire na papir za pečenje. Peći 15$m$, preokrenuti pa peći još
+  10-15$m$.
+
+\freeform
+  \ding{43} Mrkva je dobra zamjena za batat.
+
+\end{recipe}
+
+\begin{recipe}{Pulled pork}%
+  {4 porcije}%
+  {\showclock{4}{25} (10$m$ pripreme, 4$h$ \oven, 15$m$ \fryingpan )}
+\ingredient[500]{g}{pork shoulder}
+\ingredient[1]{\Spoon}{paprike u prahu}
+\ingredient[1]{\Spoon}{soli}
+\ingredient[1]{\Spoon}{češnjaka u prahu}
+  Namazati začine po mesu.
+
+\ingredient[1]{}{luk}
+  Sitno narezati luk.
+
+\ingredient[60]{ml}{vode}
+\ingredient[]{}{\pot}
+  Staviti meso, luk i vodu u slow cooker. Kuhati 3-4$h$ na high.
+
+\newstep
+  Izvaditi meso i razdvojiti sa 2 vilice. Baciti vodu.
+
+\ingredient[230]{ml}{BBQ sauce}
+\ingredient[200]{ml}{passata}
+  Dodati BBQ sauce i passatu mesu te kuhati 10-15$m$.
+
+  Poslužiti uz burger bunse i coleslaw.
+\end{recipe}
+
 \end{document}
+
+TODO
+- bolonjez
+- honey mustard chicken salad
+- banana bread
+- gulaš
+- varivo od mahuna
+- grah
+- varivo od slanutka
+' pizza tijesto
+' palačinke
+' pulled pork
+' losos wellington
+- appricot tart
+- losos u papiru
+- mediteraneo torta
