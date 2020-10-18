@@ -1,0 +1,59 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[croatian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{siunitx}
+\usepackage{lmodern}
+\usepackage[margin=2cm]{geometry}
+\usepackage{cuisine}
+\usepackage{microtype}
+\usepackage{cookingsymbols}
+\usepackage{tikzsymbols}
+\usepackage{pifont}
+\usepackage[clock]{ifsym}
+\usepackage{textcomp}
+
+% Korisni simboli:
+% \pot  veliki lonac
+% \fryingpan tava
+% \grater ribež
+% \cooker štednjak
+% \peeler za skidanje kore
+% \rollingpin za valjanje tijesta
+
+% \ding{43} iz pifont -- ruka prema desno
+
+\begin{document}
+\renewcommand*{\recipestepnumberfont}{\small\itshape}
+\begin{recipe}{Quiche sa špinatom i feta sirom}%
+  {4 porcije}%
+  {\showclock{0}{50} (10$m$ pripreme, 5$m$ \fryingpan, 35$m$ \oven) \textleaf}
+\ingredient[1]{}{srednji luk}
+\ingredient[]{}{ulje}
+  Sitno nareži luk i poprži na ulju (lagana vatra, 5$m$). Ostavi sa strane da
+  se malo ohladi.
+
+\ingredient[4]{}{jaja}
+\ingredient[250]{ml}{vrhnja za kuhanje}
+\ingredient[200]{g}{feta sira}
+\ingredient[\fr18]{\Spoon}{muškatnog orašćića}
+\ingredient[\fr18]{\Spoon}{papra}
+  Izmuti jaja, dodaj vrhnje za kuhanje. Naribaj feta sir i dodaj u smjesu.
+  Dodaj muškatni orašćić i papar.
+
+\ingredient[200]{g}{smrznutog špinata}
+  Otopi špinat u mikrovalnoj. Iscjedi vodu iz špinata kroz cjedilo za čaj.
+  Dodaj u smjesu.
+
+\newstep
+  Dodaj poprženi luk u smjesu. Sve dobro pomješaj.
+
+\ingredient[1]{}{tijesto za quiche}
+  Stavi tijesto u okruglu posudu. Nalij smjesu.
+
+\newstep
+  Zagrij pećnicu na 180\0 C. Peci 35$m$.
+
+\end{recipe}
+
+\end{document}
